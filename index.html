@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta content="width=640,user-scalable=no,target-densitydpi=device-dpi" name="viewport" id="viewport">
+    <title></title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/parabola.js"></script>
+</head>
+<body>
+
+<!-- loading动画-->
+<div id="loading">
+    <div>
+        <img src="images/loading_01.png" alt=""/>
+        <img src="images/loading_02.png" style="display: none" alt=""/>
+        <p id="load_per"><span>0</span>%</p>
+    </div>
+    <img class="load_font" src="images/wenzi_01.png" alt=""/>
+</div>
+<!--loading动画结束-->
+
+<!--场景一-->
+<div class="scene_one" id="scene_one">
+    <img class="bailing" src="images/bailing_02.png" alt=""/>
+
+    <img class="duihua1 duihua" src="images/duihua_01.png" alt=""  style="display: none"/>
+    <img class="duihua2 duihua" src="images/duihua_02.png" alt=""  style="display: none"/>
+    <a class="duihua3 duihua" href="###"  id="pay" style="display: none"><img src="images/button_01.png" alt=""/></a>
+</div>
+<!--场景一结束-->
+
+<!--场景二-->
+<div class="scene_two" id="scene_two">
+    <img src="images/duihua_03.png" alt="" class="duihua1"/>
+    <div class="tips" id="tips">
+        <img class="arrow" src="images/jiantou_hong02.png" alt=""/>
+        <img class="hand" src="images/hongshou.png" alt=""/>
+    </div>
+    <img class="text" src="images/wenzi_02.png" alt=""/>
+</div>
+<!--场景二结束-->
+
+<!--场景三-->
+<div class="scene_three" id="scene_three">
+    <img src="images/bailing_left.png" alt="" class="bailing"/>
+
+    <img src="images/bag.png" alt="" class="bag" id="bag"/>
+    <img src="images/chuanqi_01.png" alt="" class="chuanqi"/>
+
+    <div class="chuanqiBtn">
+    <img src="images/duihua_04.png" alt="" class="duihua"/>
+    <a href="###" class="btn1"><img src="images/button_02.png" alt=""/></a>
+    <a href="###" class="btn2"><img src="images/button_03.png" alt="" /></a>
+    </div>
+
+    <div class="choice" id="choice">
+        <p class="title"><img src="images/title_01.png" alt=""/></p>
+        <a href="###" class="btn btn3"><img src="images/button_a.png" alt=""/></a>
+        <a href="###" class="btn btn4"><img src="images/button_b.png" alt=""/></a>
+        <a href="###" class="btn btn5"><img src="images/button_c.png" alt=""/></a>
+    </div>
+</div>
+
+<!--场景a-->
+<div class="choice_a" id="choice_a">
+    <a href="###"><img src="images/button_04.png" alt=""/></a>
+</div>
+
+<!--场景b-->
+<div class="choice_b" id="choice_b">
+    <img src="images/wenzi_03.png" alt="" class="wenzi"/>
+    <img src="images/tiaowu_01.png" alt="" class="bailing"/>
+    <a href="###"><img src="images/button_05.png" alt=""/></a>
+</div>
+
+<!--场景c-->
+<div class="choice_c" id="choice_c">
+    <div class="hand">
+        <img src="images/step_dark.png" alt=""/>
+        <img class="light" src="images/pingmu.png" alt=""/>
+        <div class="shan">
+            <img src="images/hongdian_01.png" alt=""/>
+            <img src="images/hongdian_02.png" alt=""/>
+            <img src="images/hongdian_03.png" alt=""/>
+        </div>
+    </div>
+</div>
+
+<!--广发云支付-->
+<div class="topay" id="topay">
+        <img class="arrow" src="images/jiantou_hong.png" alt=""/>
+        <img class="mobile" src="images/shoujiheshou.png" alt=""/>
+</div>
+<!--输入密码-->
+<div class="put_pass" id="put_pass">
+    <div class="pass_bg">
+        <span></span>
+        <img class="step3_bg" src="images/step3_bg.jpg" alt=""/>
+        <a href="###" class="queren"><img src="images/button_06.png" alt=""/></a>
+        <div class="tips">
+            <img src="images/yuandian_01.png" alt=""/>
+            <img src="images/yuandian_02.png" alt=""/>
+        </div>
+        <img class="shou" src="images/shou02.png" alt=""/>
+    </div>
+    <img src="images/step3_tit.png" class="step3_tit" alt=""/>
+</div>
+
+<!--完成支付-->
+<div class="weiye" id="weiye"></div>
+</body>
+<script src="js/main.js"></script>
+</html>
